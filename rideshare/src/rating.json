@@ -1,0 +1,25 @@
+{
+  "ratings": [
+    {
+      "tripId": 250339,
+      "rating": 3.5,
+      "feedback": "Any feedback is appreciated!",
+      "epoch": 1687634534244,
+      "id": 1
+    },
+    {
+      "tripId": 781803,
+      "rating": 3.5,
+      "feedback": "Any feedback is appreciated!",
+      "epoch": 1687635421449,
+      "id": 2
+    },
+    {
+      "tripId": 413410,
+      "rating": 5,
+      "feedback": "Awesome ride!",
+      "epoch": 1687711143395,
+      "id": 3
+    }
+  ]
+}

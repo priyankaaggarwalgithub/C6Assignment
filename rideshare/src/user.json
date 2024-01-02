@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "ght@gmail.com",
+      "password": "5667788899",
+      "role": "Customer",
+      "id": 1
+    },
+    {
+      "name": "abc@gmail.com",
+      "password": "123456",
+      "role": "Customer",
+      "id": 2
+    }
+  ]
+}

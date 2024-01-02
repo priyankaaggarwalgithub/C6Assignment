@@ -1,0 +1,25 @@
+services:
+  backend: 
+    build: 
+      context: ./rideshare_backend
+      dockerfile: Dockerfile
+
+    ports:
+      - '8000:8000'
+
+    volumes:
+      - ./rideshare_backend:/app/backend
+
+  frontend:
+    build:
+      context: ./rideshare
+      dockerfile: Dockerfile
+
+    ports:
+      - '3000:3000'
+
+    volumes:
+      - ./rideshare:/app/frontend
+
+    depends_on:
+      - backend
