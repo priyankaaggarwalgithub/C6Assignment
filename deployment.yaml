@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
         - name: backend
-          image: akumar46/dockermages:react-backend
+          image: priyanka/dockermages:react-backend
           ports:
             - containerPort: 8000
         - name: frontend
-          image: akumar46/dockermages:react-frontend
+          image: priyanka/dockermages:react-frontend
           ports:
             - containerPort: 3000
 ---
